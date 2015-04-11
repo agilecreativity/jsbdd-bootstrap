@@ -133,3 +133,5 @@ npm run-script watch
 
 - [Learning Behavior-Driven-Development with JavaScript - Packtpub - 2015](http://packtpub.com/)
 - [Mocha](http://mochajs.org/)
+- [Mocha and CoffeeScript testing](http://code.tutsplus.com/tutorials/better-coffeescript-testing-with-mocha--net-24696)
+- [CoffeeScript tutorials from TutsPlus](http://code.tutsplus.com/categories/coffeescript)
