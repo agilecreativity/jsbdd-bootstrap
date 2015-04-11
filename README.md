@@ -127,9 +127,26 @@ npm install chai sinon sinon-chai mocha --save-dev
 npm run-script watch
 ```
 
+### TODOs
+
+- Use `grunt` for managing project
+```
+npm install -g grunt-cli
+#...
+npm install
+grunt init:dev build:dev
+grun test:server
+```
+
+- Use `brunch` for managing nodejs project
+
 ### Links & Resources
 
 - [Mocha](http://mochajs.org/) - the official Mocha site
-- [Learning Behavior-Driven-Development with JavaScript - Packtpub - 2015](http://packtpub.com/)
 - [CoffeeScript tutorials from TutsPlus](http://code.tutsplus.com/categories/coffeescript)
 - [More Mocha and CoffeeScript testings from TutsPlus](http://code.tutsplus.com/tutorials/better-coffeescript-testing-with-mocha--net-24696)
+
+### Books
+- [Web Development with MongoDB and Node.js](http://kroltech.com/2014/02/node-js-testing-with-mocha-chai-sinon-proxyquire/#.VSiqcWSqqko)
+- [Learning Behavior-Driven-Development with JavaScript - Packtpub - 2015](http://packtpub.com/)
+- http://www.maori.geek.nz/post/testing_promises_in_node_js_with_mocha_chai_and_sinon

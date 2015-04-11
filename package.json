@@ -14,10 +14,12 @@
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "tern": "^0.10.0",
+    "tern-coffee": "0.0.5"
   },
   "scripts": {
-    "test":  "mocha -u bdd -R spec -t 1000 --compilers coffee:coffee-script/register --recursive",
+    "test": "mocha -u bdd -R spec -t 1000 --compilers coffee:coffee-script/register --recursive",
     "watch": "mocha -u bdd -R spec -t 1000 --compliers coffee:coffee-script/register --recursive --watch"
   },
   "keywords": [

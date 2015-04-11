@@ -1,12 +1,8 @@
-# if you prefer assert library
 assert = require 'assert'
-
-# Or use the expect library similar to Rspec
 chai = require 'chai'
 expect = chai.expect
 chai.should()
 
-# Start of the test
 describe 'Array', ->
   describe '#indexOf', ->
     it 'returns -1 when the value is not present', ->

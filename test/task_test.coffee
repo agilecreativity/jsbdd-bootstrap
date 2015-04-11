@@ -1,7 +1,6 @@
 chai = require 'chai'
 expect = chai.expect
 chai.should()
-
 Task = require '../src/task'
 TaskList = require '../src/task_list'
 
