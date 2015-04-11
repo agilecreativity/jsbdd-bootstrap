@@ -13,11 +13,12 @@
     "url": "git://github.com/agilecreativity/jsbdd-bootstrap.git"
   },
   "devDependencies": {
+    "coffee-script": "^1.9.1",
     "mocha": "^2.2.4"
   },
   "scripts": {
-    "test": "mocha -u bdd -R spec -t 500 --recursive"
-   ,"watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+    "test":  "mocha -u bdd -R spec -t 1000 --compilers coffee:coffee-script/register --recursive",
+    "watch": "mocha -u bdd -R spec -t 1000 --compliers coffee:coffee-script/register --recursive --watch"
   },
   "keywords": [
     "bdd",

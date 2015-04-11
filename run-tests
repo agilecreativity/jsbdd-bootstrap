@@ -1,0 +1,7 @@
+#!/bin/bash
+# Run all tests using Mocha
+mocha --timeout 8000 \
+      --reporter spec \
+      --compilers coffee:coffee-script/register --ui bdd --watch
+#     --bail \
+#     --recursive $FILES

@@ -66,12 +66,10 @@ $nodenv rehash
 ```
 
 The will generate the `package.json` which we can use to manage the dependency
-for the project.
+for the project. This will generate the `package.json` file
 
-# This will generate the `package.json` file
-
-```
-$npm install mocha chai sinon sinon-chai --save-dev
+```shell
+$npm install mocha chai sinon sinon-chai coffee-script --save-dev
 ```
 
 - Create the proper `.gitignore` file for the project
@@ -131,7 +129,7 @@ npm run-script watch
 
 ### Links & Resources
 
+- [Mocha](http://mochajs.org/) - the official Mocha site
 - [Learning Behavior-Driven-Development with JavaScript - Packtpub - 2015](http://packtpub.com/)
-- [Mocha](http://mochajs.org/)
-- [Mocha and CoffeeScript testing](http://code.tutsplus.com/tutorials/better-coffeescript-testing-with-mocha--net-24696)
 - [CoffeeScript tutorials from TutsPlus](http://code.tutsplus.com/categories/coffeescript)
+- [More Mocha and CoffeeScript testings from TutsPlus](http://code.tutsplus.com/tutorials/better-coffeescript-testing-with-mocha--net-24696)
