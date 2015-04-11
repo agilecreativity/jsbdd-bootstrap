@@ -1,0 +1,27 @@
+{
+  "name": "jsbdd-bootstrap",
+  "version": "1.0.0",
+  "description": "The simple javascript starting template with common testings library",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^2.2.0",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agilecreativity/jsbdd-bootstrap.git"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "bdd",
+    "javascript"
+  ],
+  "author": "Burin Choomnuan",
+  "license": "MIT"
+}
