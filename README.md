@@ -10,6 +10,7 @@ The bootstrap script for working with JavaScript and NodeJS in BDD/TDD ways.
 # the project name is validator
 mkdir validator
 cd validator
+```
 
 - Run the initial npm command
 
@@ -69,7 +70,7 @@ for the project.
 
 # This will generate the `package.json` file
 
-``
+```
 $npm install mocha chai sinon sinon-chai --save-dev
 ```
 
@@ -122,6 +123,13 @@ npm install chai sinon sinon-chai mocha --save-dev
 
 - Now we need to generate the `package.json` using the `npm init` command
 
+### Once the setup is done we can
+
+```shell
+npm run-script watch
+```
+
 ### Links & Resources
 
 - [Learning Behavior-Driven-Development with JavaScript - Packtpub - 2015](http://packtpub.com/)
+- [Mocha](http://mochajs.org/)

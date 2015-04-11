@@ -16,7 +16,8 @@
     "mocha": "^2.2.4"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -u bdd -R spec -t 500 --recursive"
+   ,"watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
   },
   "keywords": [
     "bdd",
