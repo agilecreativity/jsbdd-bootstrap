@@ -126,6 +126,15 @@ npm run-script watch
 
 ### TODOs
 
+Mocha comes with all of the following:
+
+```
+before
+beforeEach
+after
+afterEach
+```
+
 - Use `grunt` for managing project
 ```
 npm install -g grunt-cli
@@ -147,3 +156,4 @@ grun test:server
 ### Books
 - [Web Development with MongoDB and Node.js](http://kroltech.com/2014/02/node-js-testing-with-mocha-chai-sinon-proxyquire/#.VSiqcWSqqko)
 - [Learning Behavior-Driven-Development with JavaScript - Packtpub - 2015](http://packtpub.com/)
+- http://webapplog.com/test-driven-development-in-node-js-with-mocha/
